@@ -36,6 +36,10 @@ migrate_working_dir/
 /linux/
 /macos/
 /windows/
+/.dart_tool/
+/.idea/
+*.iml
+*.lock
 
 # Symbolication related
 app.*.symbols
