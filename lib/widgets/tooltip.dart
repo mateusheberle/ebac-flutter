@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class TooltipPage extends StatefulWidget {
+  const TooltipPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<TooltipPage> createState() => _TooltipPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _TooltipPageState extends State<TooltipPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('App 002'),
+        title: const Text('TooltipPage'),
         centerTitle: true,
       ),
       body: Center(

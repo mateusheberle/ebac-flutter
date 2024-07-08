@@ -2,20 +2,20 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class ListViewSeparatedPage extends StatefulWidget {
+  const ListViewSeparatedPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<ListViewSeparatedPage> createState() => _ListViewSeparatedPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _ListViewSeparatedPageState extends State<ListViewSeparatedPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('App 006'),
+        title: const Text('ListViewSeparatedPage'),
         centerTitle: true,
       ),
       body: ListView.separated(

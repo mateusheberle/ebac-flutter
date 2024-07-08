@@ -2,14 +2,14 @@ import 'dart:math';
 
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class ListGeneratePage extends StatefulWidget {
+  const ListGeneratePage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<ListGeneratePage> createState() => _ListGeneratePageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _ListGeneratePageState extends State<ListGeneratePage> {
   FixedExtentScrollController controller = FixedExtentScrollController();
 
   @override
@@ -17,7 +17,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('App 009'),
+        title: const Text('ListGeneratePage'),
         centerTitle: true,
       ),
       body: ListWheelScrollView(

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class VisibilityPage extends StatefulWidget {
+  const VisibilityPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<VisibilityPage> createState() => _VisibilityPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _VisibilityPageState extends State<VisibilityPage> {
   bool _showMyName = false;
 
   void _updateScreen() {
@@ -20,7 +20,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('App 001'),
+        title: const Text('VisibilityPage'),
         centerTitle: true,
       ),
       body: Center(
