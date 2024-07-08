@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class ListViewPage extends StatefulWidget {
+  const ListViewPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<ListViewPage> createState() => _ListViewPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _ListViewPageState extends State<ListViewPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('App 005'),
+        title: const Text('ListViewPage'),
         centerTitle: true,
       ),
       body: ListView(

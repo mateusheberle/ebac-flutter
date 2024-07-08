@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class GestureDetectorPage extends StatefulWidget {
+  const GestureDetectorPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<GestureDetectorPage> createState() => _GestureDetectorPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _GestureDetectorPageState extends State<GestureDetectorPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('App 010'),
+        title: const Text('GestureDetectorPage'),
         centerTitle: true,
       ),
       body: Center(

@@ -1,19 +1,19 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class BoxDecorationPage extends StatefulWidget {
+  const BoxDecorationPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<BoxDecorationPage> createState() => _BoxDecorationPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _BoxDecorationPageState extends State<BoxDecorationPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('App 003'),
+        title: const Text('BoxDecorationPage'),
         centerTitle: true,
       ),
       body: Align(

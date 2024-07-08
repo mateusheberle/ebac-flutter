@@ -1,13 +1,14 @@
 import 'package:flutter/material.dart';
 
-class MyHomePage extends StatefulWidget {
-  const MyHomePage({super.key});
+class ListWheelScrollViewPage extends StatefulWidget {
+  const ListWheelScrollViewPage({super.key});
 
   @override
-  State<MyHomePage> createState() => _MyHomePageState();
+  State<ListWheelScrollViewPage> createState() =>
+      _ListWheelScrollViewPageState();
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class _ListWheelScrollViewPageState extends State<ListWheelScrollViewPage> {
   var itens = [
     'Item 1',
     'Item 2',
@@ -29,7 +30,7 @@ class _MyHomePageState extends State<MyHomePage> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: const Text('App 007'),
+        title: const Text('ListWheelScrollViewPage'),
         centerTitle: true,
       ),
       body: ListWheelScrollView(
