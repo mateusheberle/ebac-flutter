@@ -1,45 +1,28 @@
-# Miscellaneous
-*.class
-*.log
-*.pyc
-*.swp
-.DS_Store
-.atom/
-.buildlog/
-.history
-.svn/
-migrate_working_dir/
-
-# IntelliJ related
-*.iml
-*.ipr
-*.iws
-.idea/
-
-# Flutter/Dart/Pub related
-**/doc/api/
-**/ios/Flutter/.last_build_id
+# Arquivos e diretórios gerados pelo Dart
 .dart_tool/
 .flutter-plugins
 .flutter-plugins-dependencies
-.pub-cache/
-.pub/
-build/
-android/
+.packages
+.idea/
+
+# Diretório de build
+/build/
+
+# Arquivos de configuração pessoais
+.vscode/
+
+# Arquivos específicos do sistema operacional
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Arquivos de chaves de API, segredos, etc.
+.env
+
+# Diretórios de build específicos do sistema operacional
 ios/
-web/
 linux/
 macos/
+web/
 windows/
-*.lock
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
-
-# Android Studio will place build artifacts here
-# /android/app/debug
-# /android/app/profile
-# /android/app/release
