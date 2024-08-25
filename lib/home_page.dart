@@ -3,9 +3,14 @@ import 'dart:collection';
 
 import 'package:flutter/material.dart';
 
+import 'HTTP/http.dart';
+import 'Navigator/navigator.dart';
+import 'widgets/animated_builder.dart';
 import 'widgets/box_decoration.dart';
 import 'widgets/button_style.dart';
 import 'widgets/gesture_detector.dart';
+import 'widgets/gesture_detector_2.dart';
+import 'widgets/implicit_animations.dart';
 import 'widgets/ink_well.dart';
 import 'widgets/list_generate.dart';
 import 'widgets/list_view.dart';
@@ -17,6 +22,8 @@ import 'widgets/on_pan_update.dart';
 import 'widgets/row.dart';
 import 'widgets/stack.dart';
 import 'widgets/tooltip.dart';
+import 'widgets/value_listenable_builder.dart';
+import 'widgets/value_notifier_vs_set_state.dart';
 import 'widgets/visibility.dart';
 
 class MyHomePage extends StatefulWidget {
@@ -43,6 +50,16 @@ class _MyHomePageState extends State<MyHomePage> {
     'Stack': const StackPage(),
     'Tooltip': const TooltipPage(),
     'Visibiliy': const VisibilityPage(),
+    // novos
+    'Gesture Detector 2': const GestureDetectorPageTwo(),
+    'Animated Builder': const AnimatedBuilderPage(),
+    'Value Listenable Builder': const ValueListenableBuilderPage(),
+    'Value Notifier Vs Set State': const ValueNotifierVsSetStatePage(),
+    'Implicit Animations': const ImplicitAnimationsPage(),
+    // Pastas
+    'HTTP': const HTTPPage(),
+    'Navigator': const NavigatorPage(),
+    // /Routes precisa ser executado diretamente no próprio main.dart
   };
 
   @override
