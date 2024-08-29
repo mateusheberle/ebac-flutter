@@ -10,7 +10,7 @@ import 'widgets/box_decoration.dart';
 import 'widgets/button_style.dart';
 import 'widgets/gesture_detector.dart';
 import 'widgets/gesture_detector_2.dart';
-import 'widgets/implicit_animations.dart';
+import 'widgets/implicit_animation.dart';
 import 'widgets/ink_well.dart';
 import 'widgets/list_generate.dart';
 import 'widgets/list_view.dart';
